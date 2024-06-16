@@ -99,7 +99,7 @@ buttons = [
         InlineKeyboardButton(text="𝐀ʙᴏᴜᴛ ♡", callback_data="avisha_"),
     ],
     [
-        InlineKeyboardButton(text="𝐒ʜᴜʙʜᴏ ♡", url=f"
+        InlineKeyboardButton(text="𝐒ʜᴜʙʜᴏ ♡", url=f"https://t.me/About_Shubho"),
         InlineKeyboardButton(text="𝐒ᴏʜɪɴɪ ♡", url=f"https://t.me/About_Sohini"),
     ],
     [
@@ -109,15 +109,15 @@ buttons = [
 ]
 
 
-roy = [
+shubho = [
     [
-        InlineKeyboardButton(text="ᴀᴅᴅ ᴍᴇ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
-        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}")
+        InlineKeyboardButton(text="𝐀ᴅᴅ 𝐌ᴇ ♡", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
+        InlineKeyboardButton(text="𝐒ᴜᴘᴘᴏʀᴛ ♡", url=f"https://t.me/{SUPPORT_CHAT}")
     ]
 ]
 
 HELP_STRINGS = f"""
-❖ *{BOT_NAME} ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴇsᴄʀɪᴘᴛɪᴏɴ ᴀʙᴏᴜᴛ sᴘᴇᴄɪғɪᴄs ᴄᴏᴍᴍᴀɴᴅ.*"""
+❖ *{BOT_NAME} 𝐂ʟɪᴄᴋ 𝐎ɴ 𝐓ʜᴇ 𝐁ᴜᴛᴛᴏɴ 𝐁ᴇʟʟᴏᴡ 𝐓ᴏ 𝐆ᴇᴛ 𝐃ᴇsᴄʀɪᴘᴛɪᴏɴ 𝐀ʙᴏᴜᴛ 𝐒ᴘᴇᴄɪғɪᴄs 𝐂ᴏᴍᴍᴀɴᴅ.*"""
 
 ABHI = [
 "https://graph.org/file/f76fd86d1936d45a63c64.jpg",
@@ -196,21 +196,21 @@ NYKAA = [
     "https://graph.org/file/ad4f9beb4d526e6615e18.jpg",
     "https://graph.org/file/3514efaabe774e4f181f2.jpg",  
     "https://graph.org/file/eaa3a2602e43844a488a5.jpg",
-"https://graph.org/file/b129e98b6e5c4db81c15f.jpg",
-"https://graph.org/file/3ccb86d7d62e8ee0a2e8b.jpg",
-"https://graph.org/file/df11d8257613418142063.jpg",
-"https://graph.org/file/9e23720fedc47259b6195.jpg",
-"https://graph.org/file/826485f2d7db6f09db8ed.jpg",
-"https://graph.org/file/ff3ad786da825b5205691.jpg",
-"https://graph.org/file/52713c9fe9253ae668f13.jpg",
-"https://graph.org/file/8f8516c86677a8c91bfb1.jpg",
-"https://graph.org/file/6603c3740378d3f7187da.jpg",
-"https://graph.org/file/66cb6ec40eea5c4670118.jpg",
-"https://graph.org/file/2e3cf4327b169b981055e.jpg",
+    "https://graph.org/file/b129e98b6e5c4db81c15f.jpg",
+    "https://graph.org/file/3ccb86d7d62e8ee0a2e8b.jpg",
+    "https://graph.org/file/df11d8257613418142063.jpg",
+    "https://graph.org/file/9e23720fedc47259b6195.jpg",
+    "https://graph.org/file/826485f2d7db6f09db8ed.jpg",
+    "https://graph.org/file/ff3ad786da825b5205691.jpg",
+    "https://graph.org/file/52713c9fe9253ae668f13.jpg",
+    "https://graph.org/file/8f8516c86677a8c91bfb1.jpg",
+    "https://graph.org/file/6603c3740378d3f7187da.jpg",
+    "https://graph.org/file/66cb6ec40eea5c4670118.jpg",
+    "https://graph.org/file/2e3cf4327b169b981055e.jpg",
 ]
 
 
-DONATE_STRING = f"""❅ ʜᴇʏ ʙᴀʙʏ, ʜᴀᴩᴩʏ ᴛᴏ ʜᴇᴀʀ ᴛʜᴀᴛ ʏᴏᴜ ᴡᴀɴɴᴀ ᴅᴏɴᴀᴛᴇ. ʏᴏᴜ ᴄᴀɴ ᴅɪʀᴇᴄᴛʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ @roy_editx ғᴏʀ ᴅᴏɴᴀᴛɪɴɢ ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴠɪsɪᴛ ᴍʏ sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ @the_friendz ᴀɴᴅ ᴀsᴋ ᴛʜᴇʀᴇ ᴀʙᴏᴜᴛ ᴅᴏɴᴀᴛɪᴏɴ."""
+DONATE_STRING = f"""❅ 𝐇ᴇʏ 𝐃ᴇᴀʀ, 𝐇ᴀᴩᴩʏ 𝐓ᴏ 𝐇ᴇᴀʀ 𝐓ʜᴀᴛ 𝐘ᴏᴜ 𝐖ᴀɴɴᴀ 𝐃ᴏɴᴀᴛᴇ. 𝐘ᴏᴜ 𝐂ᴀɴ 𝐃ɪʀᴇᴄᴛʟʏ 𝐂ᴏɴᴛᴀᴄᴛ 𝐌ʏ 𝐃ᴇᴠᴇʟᴏᴘᴇʀ @hello_deear 𝐅ᴏʀ 𝐃ᴏɴᴀᴛɪɴɢ 𝐎ʀ 𝐘ᴏᴜ 𝐂ᴀɴ 𝐕ɪsɪᴛ 𝐌ʏ 𝐃ᴜᴩᴩᴏʀᴛ 𝐂ʜᴀᴛ @blossoms_chat 𝐀ɴᴅ 𝐀sᴋ 𝐓ʜᴇʀᴇ 𝐀ʙᴏᴜᴛ 𝐃ᴏɴᴀᴛɪᴏɴ."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -347,7 +347,7 @@ def start(update: Update, context: CallbackContext):
     else:
         update.effective_message.reply_photo(
             random.choice(NYKAA),
-            caption="⬤ ๛ᴀ ᴠ ɪ s ʜ ᴀ ࿐ ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ.\n\n⬤ ᴜᴘᴛɪᴍᴇ ➥ <code>{}</code>".format(
+            caption="𝐒ᴏʜɪɴɪ 𝐌ᴜsɪᴄ 𝐁ᴏᴛ 𝐈s 𝐀ʟɪᴠᴇ 𝐃ᴇᴀʀ .\n\n⬤ 𝐔ᴘᴛɪᴍᴇ ➥ <code>{}</code>".format(
                 uptime
             ),
             reply_markup=InlineKeyboardMarkup(roy),
@@ -356,7 +356,7 @@ def start(update: Update, context: CallbackContext):
 
 
 def error_handler(update, context):
-    """❅ ʟᴏɢ ᴛʜᴇ ᴇʀʀᴏʀ ᴀɴᴅ sᴇɴᴅ ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇssᴀɢᴇ ᴛᴏ ɴᴏᴛɪғʏ ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴘᴇʀ."""
+    """❅ 𝐋ᴏɢ 𝐓ʜᴇ 𝐄ʀʀᴏʀ 𝐀ɴᴅ 𝐒ᴇɴᴅ 𝐀 𝐓ᴇʟᴇɢʀᴀᴍ 𝐌ᴇssᴀɢᴇ 𝐓ᴏ 𝐍ᴏᴛɪғʏ 𝐓ʜᴇ 𝐃ᴇᴠᴇʟᴏᴘᴇʀ."""
     # Log the error before we do anything else, so we can see it even if something breaks.
     LOGGER.error(msg="Exception while handling an update:", exc_info=context.error)
 
@@ -369,8 +369,8 @@ def error_handler(update, context):
 
     # Build the message with some markup and additional information about what happened.
     message = (
-        "❅ ᴀɴ ᴇxᴄᴇᴘᴛɪᴏɴ ᴡᴀs ʀᴀɪsᴇᴅ ᴡʜɪʟᴇ ʜᴀɴᴅʟɪɴɢ ᴀɴ ᴜᴘᴅᴀᴛᴇ\n"
-        "❅ <pre>ᴜᴘᴅᴀᴛᴇ = {}</pre>\n\n"
+        "❅ 𝐀ɴ 𝐄xᴄᴇᴘᴛɪᴏɴ 𝐖ᴀs 𝐑ᴀɪsᴇᴅ 𝐖ʜɪʟᴇ 𝐇ᴀɴᴅʟɪɴɢ 𝐀ɴ 𝐔ᴘᴅᴀᴛᴇ\n"
+        "❅ <pre>𝐔ᴘᴅᴀᴛᴇ = {}</pre>\n\n"
         "❅ <pre>{}</pre>"
     ).format(
         html.escape(json.dumps(update.to_dict(), indent=2, ensure_ascii=False)),
@@ -426,7 +426,7 @@ def help_button(update, context):
         if mod_match:
             module = mod_match.group(1)
             text = (
-                "❖ *ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs ꜰᴏʀ* *{}* ⏤͟͟͞͞★\n".format(
+                "❖ *𝐀ᴠᴀɪʟᴀʙʟᴇ 𝐂ᴏᴍᴍᴀɴᴅs 𝐅ᴏʀ* *{}* ⏤͟͟͞͞★\n".format(
                     HELPABLE[module].__mod_name__
                 )
                 + HELPABLE[module].__help__
@@ -435,7 +435,7 @@ def help_button(update, context):
                 parse_mode=ParseMode.MARKDOWN,
                 
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="help_back"),InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", callback_data="avisha_support")]]
+                    [[InlineKeyboardButton(text="𝐁ᴀᴄᴋ", callback_data="help_back"),InlineKeyboardButton(text="𝐒ᴜᴘᴘᴏʀᴛ ♡", callback_data="avisha_support")]]
                 ),
             )
 
@@ -477,37 +477,38 @@ def Avisha_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "avisha_":
         uptime = get_readable_time((time.time() - StartTime))
-        query.message.edit_caption(f"*❖ ɪ ʜᴀᴠᴇ ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ + ᴍᴜsɪᴄ ʙᴏᴛ ғᴇᴀᴛᴜʀᴇs.*"
-            "\n\n● ᴡʀɪᴛᴛᴇɴ ɪɴ ᴩʏᴛʜᴏɴ ᴡɪᴛʜ sǫʟᴀʟᴄʜᴇᴍʏ ᴀɴᴅ ᴍᴏɴɢᴏᴅʙ ᴀs ᴅᴀᴛᴀʙᴀsᴇ."
-            f"\n\n● ᴛᴏᴛᴀʟ ᴜsᴇʀs ➥ {sql.num_users()}"
-            f"\n● ᴛᴏᴛᴀʟ ᴄʜᴀᴛs ➥ {sql.num_chats()}"
-            "\n\n● ɪ ᴄᴀɴ ʀᴇꜱᴛʀɪᴄᴛ ᴜꜱᴇʀꜱ."
-            "\n● ɪ ʜᴀᴠᴇ ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴛɪ-ꜰʟᴏᴏᴅ ꜱʏꜱᴛᴇᴍ."
-            "\n● ᴀᴅᴠᴀɴᴄᴇ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ᴄᴀᴘᴀʙɪʟɪᴛʏ."
-            "\n● ᴀɴɪᴍᴇ ʙᴏᴛ ғᴜɴᴄᴛɪᴏɴᴀʟɪᴛʏ."
-            "\n● ᴀɪ ɪɴᴛᴇɢʀᴀᴛɪᴏɴ."
-            f"\n\n*❖ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ғᴏʀ ɢᴇᴛᴛɪɴɢ ʙᴀsɪᴄ ʜᴇʟᴩ ᴀɴᴅ ɪɴғᴏ ᴀʙᴏᴜᴛ {dispatcher.bot.first_name}.*",
+        query.message.edit_caption(f"*❖ 𝐈 𝐇ᴀᴠᴇ 𝐌ᴏsᴛ 𝐏ᴏᴡᴇʀғᴜʟʟ 𝐆ʀᴏᴜᴘ 𝐌ᴀɴᴀɢᴇᴍᴇɴᴛ + 𝐌ᴜsɪᴄ 𝐁ᴏᴛ 𝐅ᴇᴀᴛᴜʀᴇs.*"
+            "\n\n● 𝐖ʀɪᴛᴛᴇɴ 𝐈ɴ 𝐏ʏᴛʜᴏɴ 𝐖ɪᴛʜ 𝐒ǫʟᴀʟᴄʜᴇᴍʏ 𝐀ɴᴅ 𝐌ᴏɴɢᴏᴅʙ 𝐀s 𝐃ᴀᴛᴀʙᴀsᴇ."
+            f"\n\n● 𝐓ᴏᴛᴀʟ 𝐔sᴇʀs ➥ {sql.num_users()}"
+            f"\n● 𝐓ᴏᴛᴀʟ 𝐂ʜᴀᴛs ➥ {sql.num_chats()}"
+            "\n\n● 𝐈 𝐇ᴀᴠᴇ 𝐒ᴘᴇᴄɪᴀʟ 𝐂ᴏᴘʏʀɪɢʜᴛ 𝐏ʀᴏᴛᴇᴄᴛɪᴏɴ 𝐒ʏsᴛᴇᴍ."
+            "\n● 𝐈 𝐂ᴀɴ 𝐑ᴇsᴛʀɪᴄᴛ 𝐔sᴇʀs."                      
+            "\n● 𝐈 𝐇ᴀᴠᴇ 𝐀ɴ 𝐀ᴅᴠᴀɴᴄᴇᴅ 𝐀ɴᴛɪ-𝐅ʟᴏᴏᴅ 𝐒ʏꜱᴛᴇᴍ."
+            "\n● 𝐀ᴅᴠᴀɴᴄᴇ 𝐌ᴀɴᴀɢᴇᴍᴇɴᴛ 𝐂ᴀᴘᴀʙɪʟɪᴛʏ."
+            "\n● 𝐀ɴɪᴍᴇ 𝐁ᴏᴛ 𝐅ᴜɴᴄᴛɪᴏɴᴀʟɪᴛʏ."
+            "\n● 𝐀ɪ 𝐈ɴᴛᴇɢʀᴀᴛɪᴏɴ."
+            f"\n\n*❖ 𝐂ʟɪᴄᴋ 𝐎ɴ 𝐓ʜᴇ 𝐁ᴜᴛᴛᴏɴs 𝐆ɪᴠᴇɴ 𝐁ᴇʟᴏᴡ 𝐅ᴏʀ 𝐆ᴇᴛᴛɪɴɢ 𝐁ᴀsɪᴄ 𝐇ᴇʟᴩ 𝐀ɴᴅ 𝐈ɴғᴏ 𝐀ʙᴏᴜᴛ {dispatcher.bot.first_name}.*",
             parse_mode=ParseMode.MARKDOWN,
                                    
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="avisha_back"),
-                        InlineKeyboardButton(text="ᴄᴄ ʜᴇʟᴘ", url="https://t.me/h_cc_help"),
+                        InlineKeyboardButton(text="𝐁ᴀᴄᴋ", callback_data="avisha_back"),
+                        InlineKeyboardButton(text="𝐔ᴘᴅᴀᴛᴇs ♡", url="https://t.me/the_quesstion_mark"),
                     ],
                 ]
             ),
             )
     elif query.data == "avisha_support":
-        query.message.edit_caption("**❖ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ɢɪᴠᴇɴ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴊᴏɪɴ ᴏᴜʀ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ғᴏʀ ʙᴏᴛ ᴜᴘᴅᴀᴛᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ.**"
-            f"\n\n● ɪғ ᴀɴʏ ʙᴜɢ ɪɴ {dispatcher.bot.first_name}, ᴩʟᴇᴀsᴇ ʀᴇᴩᴏʀᴛ ɪᴛ ᴀᴛ sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ.",
+        query.message.edit_caption("**❖ 𝐂ʟɪᴄᴋ 𝐎ɴ 𝐓ʜᴇ 𝐆ɪᴠᴇɴ 𝐁ᴜᴛᴛᴏɴ 𝐘ᴏ 𝐉ᴏɪɴ 𝐎ᴜʀ 𝐔ᴘᴅᴀᴛᴇ 𝐂ʜᴀɴɴᴇʟ 𝐅ᴏʀ 𝐁ᴏᴛ 𝐔ᴘᴅᴀᴛᴇ 𝐈ɴғᴏʀᴍᴀᴛɪᴏɴ.**"
+            f"\n\n● 𝐈ғ 𝐀ɴʏ 𝐁ᴜɢ 𝐈ɴ {dispatcher.bot.first_name}, 𝐏ʟᴇᴀsᴇ 𝐑ᴇᴩᴏʀᴛ 𝐈ᴛ 𝐀ᴛ 𝐒ᴜᴩᴩᴏʀᴛ 𝐂ʜᴀᴛ.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="avisha_back"),
+                        InlineKeyboardButton(text="𝐁ᴀᴄᴋ", callback_data="avisha_back"),
                         InlineKeyboardButton(
-                            text="ᴜᴘᴅᴀᴛᴇ", url=f"https://t.me/roy_editx"
+                            text="𝐔ᴘᴅᴀᴛᴇ ♡", url=f"https://t.me/the_quesstion_mark"
                         ),
                     ],
                 ]
@@ -531,12 +532,15 @@ def AvishaRobot_Main_Callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="ᴍᴀɴᴀɢᴇ", callback_data="help_back"),
-                        InlineKeyboardButton(text="ᴍᴜsɪᴄ", callback_data="Music_")
+                        InlineKeyboardButton(text="𝐌ᴀɴᴀɢᴇ ♡", callback_data="help_back"),
+                        InlineKeyboardButton(text="𝐌ᴜsɪᴄ ♡", callback_data="Music_")
                     ],
                     [
-                        InlineKeyboardButton(text="ꜱᴘᴀᴍ", callback_data="Music_roy"),
-                        InlineKeyboardButton(text="ᴀɴɪᴍᴇ", callback_data="source_") 
+                        InlineKeyboardButton(text="𝐒ᴘᴀᴍ ♡", callback_data="Music_roy"),
+                        InlineKeyboardButton(text="𝐀ɴɪᴍᴇ ♡", callback_data="source_") 
+                    ],
+                    [
+                        InlineKeyboardButton(text="𝐒ᴛʀɪɴɢ 𝐆ᴇɴᴇʀᴀᴛᴏʀ ♡", callback_data="source_") 
                     ],
                     [
                         InlineKeyboardButton(text="ʜᴏᴍᴇ", callback_data="avisha_back")
