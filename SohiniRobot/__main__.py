@@ -71,7 +71,7 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 PM_START_TEX = """
-ᴡᴇʟᴄᴏᴍᴇ ʙᴀʙʏ....
+𝐖ᴇʟᴄᴏᴍᴇ ❤️....
 """
 #####
 
@@ -90,16 +90,20 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text=" ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ ", 
+            text="♡ 𝐀ᴅᴅ 𝐌ᴇ 𝐓ᴏ 𝐘ᴏᴜʀ 𝐆ʀᴏᴜᴘ ♡", 
             url=f"https://t.me/{dispatcher.bot.username}?startgroup=true", 
         ),
     ],
     [
-        InlineKeyboardButton(text="ʀᴇᴘᴏ", callback_data="gib_source"),
-        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="avisha_"),
+        InlineKeyboardButton(text="𝐔ᴘᴅᴀᴛᴇs ♡", callback_data="gib_source"),
+        InlineKeyboardButton(text="𝐀ʙᴏᴜᴛ ♡", callback_data="avisha_"),
     ],
     [
-        InlineKeyboardButton(text="ʜᴇʟᴘ ᴄᴏᴍᴍᴀɴᴅs", callback_data="Main_help"),
+        InlineKeyboardButton(text="𝐒ʜᴜʙʜᴏ ♡", url=f"
+        InlineKeyboardButton(text="𝐒ᴏʜɪɴɪ ♡", url=f"https://t.me/About_Sohini"),
+    ],
+    [
+        InlineKeyboardButton(text="𝐇ᴇʟᴘ & 𝐂ᴏᴍᴍᴀɴᴅs", callback_data="Main_help"),
     ],
      
 ]
