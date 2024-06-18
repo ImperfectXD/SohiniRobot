@@ -27,8 +27,8 @@ from telegram.ext.dispatcher import DispatcherHandlerStop
 from telegram.utils.helpers import escape_markdown
 from telethon import __version__ as tlhver
 
-import AvishaRobot.modules.no_sql.users_db as sql
-from AvishaRobot import (
+import SohiniRobot.modules.no_sql.users_db as sql
+from SohiniRobot import (
     BOT_NAME,
     BOT_USERNAME,
     LOGGER,
@@ -42,9 +42,9 @@ from AvishaRobot import (
     telethn,
     updater,
 )
-from AvishaRobot.modules import ALL_MODULES
-from AvishaRobot.modules.helper_funcs.chat_status import is_user_admin
-from AvishaRobot.modules.helper_funcs.misc import paginate_modules
+from SohiniRobot.modules import ALL_MODULES
+from SohiniRobot.modules.helper_funcs.chat_status import is_user_admin
+from SohiniRobot.modules.helper_funcs.misc import paginate_modules
 
 
 def get_readable_time(seconds: int) -> str:
@@ -475,7 +475,7 @@ def help_button(update, context):
 
 def Avisha_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
-    if query.data == "avisha_":
+    if query.data == "sohini_":
         uptime = get_readable_time((time.time() - StartTime))
         query.message.edit_caption(f"*❖ 𝐈 𝐇ᴀᴠᴇ 𝐌ᴏsᴛ 𝐏ᴏᴡᴇʀғᴜʟʟ 𝐆ʀᴏᴜᴘ 𝐌ᴀɴᴀɢᴇᴍᴇɴᴛ + 𝐌ᴜsɪᴄ 𝐁ᴏᴛ 𝐅ᴇᴀᴛᴜʀᴇs.*"
             "\n\n● 𝐖ʀɪᴛᴛᴇɴ 𝐈ɴ 𝐏ʏᴛʜᴏɴ 𝐖ɪᴛʜ 𝐒ǫʟᴀʟᴄʜᴇᴍʏ 𝐀ɴᴅ 𝐌ᴏɴɢᴏᴅʙ 𝐀s 𝐃ᴀᴛᴀʙᴀsᴇ."
@@ -499,7 +499,7 @@ def Avisha_about_callback(update: Update, context: CallbackContext):
                 ]
             ),
             )
-    elif query.data == "avisha_support":
+    elif query.data == "sohini_support":
         query.message.edit_caption("**❖ 𝐂ʟɪᴄᴋ 𝐎ɴ 𝐓ʜᴇ 𝐆ɪᴠᴇɴ 𝐁ᴜᴛᴛᴏɴ 𝐘ᴏ 𝐉ᴏɪɴ 𝐎ᴜʀ 𝐔ᴘᴅᴀᴛᴇ 𝐂ʜᴀɴɴᴇʟ 𝐅ᴏʀ 𝐁ᴏᴛ 𝐔ᴘᴅᴀᴛᴇ 𝐈ɴғᴏʀᴍᴀᴛɪᴏɴ.**"
             f"\n\n● 𝐈ғ 𝐀ɴʏ 𝐁ᴜɢ 𝐈ɴ {dispatcher.bot.first_name}, 𝐏ʟᴇᴀsᴇ 𝐑ᴇᴩᴏʀᴛ 𝐈ᴛ 𝐀ᴛ 𝐒ᴜᴩᴩᴏʀᴛ 𝐂ʜᴀᴛ.",
             parse_mode=ParseMode.MARKDOWN,
@@ -514,7 +514,7 @@ def Avisha_about_callback(update: Update, context: CallbackContext):
                 ]
             ),
         )
-    elif query.data == "avisha_back":
+    elif query.data == "sohini_back":
         first_name = update.effective_user.first_name 
         query.message.edit_caption(PM_START_TEXT.format(escape_markdown(first_name), BOT_NAME,sql.num_users(),sql.num_chats()),
             reply_markup=InlineKeyboardMarkup(buttons),
@@ -559,7 +559,7 @@ def AvishaRobot_Main_Callback(update: Update, context: CallbackContext):
                 ]
             ),
             )
-    elif query.data=="avisha_back":
+    elif query.data=="sohini_back":
         query.message.edit_caption("""✿ ᴇxᴘᴇʀᴛ ᴄᴏᴍᴍᴀɴᴅs ✿
 
 ❅ ᴀᴠᴀɪʟᴀʙʟᴇ ᴛᴏ ᴀᴅᴍɪɴs ❅
