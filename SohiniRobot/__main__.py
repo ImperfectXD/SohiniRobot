@@ -854,7 +854,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
     elif query.data == "Music_roy_bot":
         query.message.edit_caption(f"*✿ ʙᴏᴛ ᴏᴡɴᴇʀ ᴄᴏᴍᴍᴀɴᴅꜱ ✿*"
            
-            f"""\n\n֍ 𝗨𝘀𝗲𝗿𝗕𝗼𝘁 ➠ ๏ ᴜꜱᴇʀʙᴏᴛ ᴄᴍᴅꜱ ๏\n  ๛ /ping \n  ๛ /reboot\n  ๛ /sudo <reply to user>  ➛ Owner Cmd\n  ๛ /logs ➛ Owner Cmd\n\n֍ 𝗘𝗰𝗵𝗼 ➠ ๏ ᴛᴏ ᴀᴄᴛɪᴠᴇ ᴇᴄʜᴏ ᴏɴ ᴀɴʏ ᴜꜱᴇʀ ๏\n  ๛ /echo <reply to user>\n  ๛ /rmecho <reply to user>\n\n֍ 𝗟𝗲𝗮𝘃𝗲 ➠ ๏ ᴛᴏ ʟᴇᴀᴠᴇ ɢʀᴏᴜᴘ/ᴄʜᴀɴɴᴇʟ ๏\n  ๛ /leave <group/chat id>\n  ๛ /leave ➛ Type in the Group bot will auto leave that group""",
+            f"""\n\n֍ 𝗨𝘀𝗲𝗿𝗕𝗼𝘁 ➠ ๏ ᴜꜱᴇʀʙᴏᴛ ᴄᴍᴅꜱ ๏\n  ๛ /ping \n  ๛ /reboot\n  ๛ /sudo <reply to user>  ➛ Owner Cmd\n  ๛ /logs ➛ Owner Cmd\n\n֍ 𝐄ᴄʜᴏ ➠ ๏ ᴛᴏ ᴀᴄᴛɪᴠᴇ ᴇᴄʜᴏ ᴏɴ ᴀɴʏ ᴜꜱᴇʀ ๏\n  ๛ /echo <reply to user>\n  ๛ /rmecho <reply to user>\n\n֍ 𝐋ᴇᴀᴠᴇ ➠ ๏ ᴛᴏ ʟᴇᴀᴠᴇ ɢʀᴏᴜᴘ/ᴄʜᴀɴɴᴇʟ ๏\n  ๛ /leave <group/chat id>\n  ๛ /leave ➛ Type in the Group bot will auto leave that group""",
             parse_mode=ParseMode.MARKDOWN,
             
             reply_markup=InlineKeyboardMarkup(
@@ -866,9 +866,9 @@ def Music_about_callback(update: Update, context: CallbackContext):
             ),
         )
     elif query.data == "Music_roy_extra":
-        query.message.edit_caption(f"*✿ ᴇxᴛʀᴀ ᴄᴏᴍᴍᴀɴᴅꜱ ✿*"
+        query.message.edit_caption(f"*✿ 𝐄xᴛʀᴀ 𝐂ᴏᴍᴍᴀɴᴅꜱ ✿*"
             
-             f"""✿ ʜᴇʀᴇ ɪs ᴀʟʟ ᴀɴɪᴍᴇ ʀᴀɴᴅᴏᴍ ɢɪғs ᴄᴏᴍᴍᴀɴᴅs.\n\n❍ /bully ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ʙᴜʟʟʏ ɢɪғs.\n❍ /lick ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ʟɪᴄᴋ ɢɪғs.\n❍ /bonk ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ʙᴏɴᴋ ɢɪғs.\n❍ /yeet ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ʏᴇᴇᴛ ɢɪғs.\n❍ /blush ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ʙʟᴜsʜ ɢɪғs.\n❍ /smile ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ sᴍɪʟᴇ ɢɪғs.\n❍ /wave ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ᴡᴀᴠᴇ ɢɪғs.\n❍ /highfive ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ʜɪɢʜғɪᴠᴇ ɢɪғs.\n❍ /nom  ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ɴᴏᴍ ɢɪғs.\n❍ /handhold ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ʜᴀɴᴅʜᴏʟᴅ ɢɪғs.\n❍ /bite ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ʙɪᴛᴇ ɢɪғs.\n❍ /glomp ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ɢʟᴏᴍᴘ ɢɪғs.\n❍ /happy ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ʜᴀᴘᴘʏ ɢɪғs.\n❍ /wink ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ᴡɪɴᴋ ɢɪғs.\n❍ /poke ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ᴘᴏᴋᴇ ɢɪғs.\n❍ /dance ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ᴅᴀɴᴄᴇ ɢɪғs.\n❍ /ngif ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ɴɢɪғ.\n❍ /tickle ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ᴛɪᴄᴋʟᴇ ɢɪғs.\n❍ /feed ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ғᴇᴇᴅ ɢɪғs.\n❍ /kiss ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ᴋɪss ɢɪғs.\n❍ /smug ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ sᴍᴜɢ ɢɪғs.\n❍ /slap ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ sʟᴀᴘ ɢɪғs.""",
+             f"""✿ 𝐇ᴇʀᴇ 𝐈s 𝐀ʟʟ 𝐀ɴɪᴍᴇ 𝐑ᴀɴᴅᴏᴍ 𝐆ɪғs 𝐂ᴏᴍᴍᴀɴᴅs.\n\n❍ /bully ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ʙᴜʟʟʏ ɢɪғs.\n❍ /lick ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ʟɪᴄᴋ ɢɪғs.\n❍ /bonk ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ʙᴏɴᴋ ɢɪғs.\n❍ /yeet ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ʏᴇᴇᴛ ɢɪғs.\n❍ /blush ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ʙʟᴜsʜ ɢɪғs.\n❍ /smile ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ sᴍɪʟᴇ ɢɪғs.\n❍ /wave ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ᴡᴀᴠᴇ ɢɪғs.\n❍ /highfive ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ʜɪɢʜғɪᴠᴇ ɢɪғs.\n❍ /nom  ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ɴᴏᴍ ɢɪғs.\n❍ /handhold ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ʜᴀɴᴅʜᴏʟᴅ ɢɪғs.\n❍ /bite ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ʙɪᴛᴇ ɢɪғs.\n❍ /glomp ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ɢʟᴏᴍᴘ ɢɪғs.\n❍ /happy ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ʜᴀᴘᴘʏ ɢɪғs.\n❍ /wink ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ᴡɪɴᴋ ɢɪғs.\n❍ /poke ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ᴘᴏᴋᴇ ɢɪғs.\n❍ /dance ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ᴅᴀɴᴄᴇ ɢɪғs.\n❍ /ngif ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ɴɢɪғ.\n❍ /tickle ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ᴛɪᴄᴋʟᴇ ɢɪғs.\n❍ /feed ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ғᴇᴇᴅ ɢɪғs.\n❍ /kiss ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ ᴋɪss ɢɪғs.\n❍ /smug ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ sᴍᴜɢ ɢɪғs.\n❍ /slap ➛ sᴇɴᴅs ʀᴀɴᴅᴏᴍ sʟᴀᴘ ɢɪғs.""",
             parse_mode=ParseMode.MARKDOWN,
             
             reply_markup=InlineKeyboardMarkup(
@@ -896,12 +896,12 @@ def get_help(update: Update, context: CallbackContext):
         if len(args) >= 2 and any(args[1].lower() == x for x in HELPABLE):
             module = args[1].lower()
             update.effective_message.reply_photo(random.choice(ABHI),
-                f"❖ ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ ɪɴ ᴘᴍ ᴛᴏ ɢᴇᴛ ʜᴇʟᴘ ᴏғ {module.capitalize()}",
+                f"❖ 𝐂ᴏɴᴛᴀᴄᴛ 𝐌ᴇ 𝐈ɴ 𝐏ᴍ 𝐓ᴏ 𝐆ᴇᴛ 𝐇ᴇʟᴘ 𝐎ғ {module.capitalize()}",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton(
-                                text="ʜᴇʟᴘ",
+                                text="𝐇ᴇʟᴘ",
                                 url="t.me/{}?start=ghelp_{}".format(
                                     context.bot.username, module
                                 ),
@@ -911,18 +911,18 @@ def get_help(update: Update, context: CallbackContext):
                 ),
             )
             return
-        update.effective_message.reply_photo(random.choice(NYKAA),"❖ ᴡʜᴇʀᴇ ᴅᴏ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴏᴘᴇɴ ᴛʜᴇ sᴇᴛᴛɪɴɢs ᴍᴇɴᴜ?.",
+        update.effective_message.reply_photo(random.choice(NYKAA),"❖ 𝐖ʜᴇʀᴇ 𝐃ᴏ 𝐘ᴏᴜ 𝐖ᴀɴᴛ 𝐓ᴏ 𝐎ᴘᴇɴ 𝐓ʜᴇ 𝐒ᴇᴛᴛɪɴɢs 𝐌ᴇɴᴜ?.",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="ᴏᴩᴇɴ ɪɴ ᴩʀɪᴠᴀᴛᴇ",
+                            text="𝐎ᴩᴇɴ 𝐈ɴ 𝐏ʀɪᴠᴀᴛᴇ",
                             url="https://t.me/{}?start=help".format(context.bot.username),
                         )
                     ],
                     [
                         InlineKeyboardButton(
-                            text="ᴏᴩᴇɴ ʜᴇʀᴇ",
+                            text="𝐎ᴩᴇɴ 𝐇ᴇʀᴇ",
                             callback_data="help_back",
                         )
                     ],
@@ -934,7 +934,7 @@ def get_help(update: Update, context: CallbackContext):
     elif len(args) >= 2 and any(args[1].lower() == x for x in HELPABLE):
         module = args[1].lower()
         text = (
-            "✦ ʜᴇʀᴇ ɪs ᴛʜᴇ ᴀᴠᴀɪʟᴀʙʟᴇ ʜᴇʟᴘ ғᴏʀ ᴛʜᴇ *{}* \n".format(
+            "✦ 𝐇ᴇʀᴇ 𝐈s 𝐓ʜᴇ 𝐀ᴠᴀɪʟᴀʙʟᴇ 𝐇ᴇʟᴘ 𝐅ᴏʀ 𝐓ʜᴇ *{}* \n".format(
                 HELPABLE[module].__mod_name__
             )
             + HELPABLE[module].__help__
@@ -943,7 +943,7 @@ def get_help(update: Update, context: CallbackContext):
             chat.id,
             text,
             InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="help_back"),InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", callback_data="avisha_support")]]
+                [[InlineKeyboardButton(text="𝐁ᴀᴄᴋ", callback_data="help_back"),InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", callback_data="avisha_support")]]
             ),
         )
 
@@ -960,14 +960,14 @@ def send_settings(chat_id, user_id, user=False):
             )
             dispatcher.bot.send_message(
                 user_id,
-                "⬤ ᴛʜᴇsᴇ ᴀʀᴇ ʏᴏᴜʀ ᴄᴜʀʀᴇɴᴛ sᴇᴛᴛɪɴɢs." + "\n\n" + settings,
+                "⬤ 𝐓ʜᴇsᴇ 𝐀ʀᴇ 𝐔ᴏᴜʀ 𝐂ᴜʀʀᴇɴᴛ 𝐒ᴇᴛᴛɪɴɢs." + "\n\n" + settings,
                 parse_mode=ParseMode.MARKDOWN,
             )
 
         else:
             dispatcher.bot.send_message(
                 user_id,
-                "⬤ sᴇᴇᴍs ʟɪᴋᴇ ᴛʜᴇʀᴇ ᴀʀᴇ ɴᴏᴛ ᴀɴʏ ᴜsᴇʀ sᴘᴇᴄɪғɪᴄ sᴇᴛᴛɪɴɢs ᴀᴠᴀɪʟᴀʙʟᴇ '(",
+                "⬤ 𝐒ᴇᴇᴍs 𝐋ɪᴋᴇ 𝐓ʜᴇʀᴇ 𝐀ʀᴇ 𝐍ᴏᴛ 𝐀ɴʏ 𝐔sᴇʀ 𝐒ᴘᴇᴄɪғɪᴄ 𝐒ᴇᴛᴛɪɴɢs 𝐀ᴠᴀɪʟᴀʙʟᴇ '(",
                 parse_mode=ParseMode.MARKDOWN,
             )
 
@@ -976,7 +976,7 @@ def send_settings(chat_id, user_id, user=False):
             chat_name = dispatcher.bot.getChat(chat_id).title
             dispatcher.bot.send_message(
                 user_id,
-                text="✦ ᴡʜɪᴄʜ ᴍᴏᴅᴜʟᴇ ᴡᴏᴜʟᴅ ʏᴏᴜ ʟɪᴋᴇ ᴛᴏ ᴄʜᴇᴄᴋ {}'s sᴇᴛᴛɪɴɢs ғᴏʀ ?".format(
+                text="✦ 𝐖ʜɪᴄʜ 𝐌ᴏᴅᴜʟᴇ 𝐖ᴏᴜʟᴅ 𝐘ᴏᴜ 𝐋ɪᴋᴇ 𝐘ᴏ 𝐂ʜᴇᴄᴋ {}'s 𝐒ᴇᴛᴛɪɴɢs 𝐅ᴏʀ ?".format(
                     chat_name
                 ),
                 reply_markup=InlineKeyboardMarkup(
@@ -1005,7 +1005,7 @@ def settings_button(update: Update, context: CallbackContext):
             chat_id = mod_match.group(1)
             module = mod_match.group(2)
             chat = bot.get_chat(chat_id)
-            text = "❖ *{}* ʜᴀs ᴛʜᴇ ғᴏʟʟᴏᴡɪɴɢ sᴇᴛᴛɪɴɢs ғᴏʀ ᴛʜᴇ ➥ *{}* \n\n".format(
+            text = "❖ *{}* 𝐇ᴀs 𝐓ʜᴇ 𝐅ᴏʟʟᴏᴡɪɴɢ 𝐒ᴇᴛᴛɪɴɢs 𝐅ᴏʀ 𝐓ʜᴇ ➥ *{}* \n\n".format(
                 escape_markdown(chat.title), CHAT_SETTINGS[module].__mod_name__
             ) + CHAT_SETTINGS[module].__chat_settings__(chat_id, user.id)
             query.message.reply_text(text,
@@ -1026,7 +1026,7 @@ def settings_button(update: Update, context: CallbackContext):
             chat_id = prev_match.group(1)
             curr_page = int(prev_match.group(2))
             chat = bot.get_chat(chat_id)
-            query.message.reply_text("""⬤ ʜɪɪ ᴛʜᴇʀᴇ, ᴛʜᴇʀᴇ ᴀʀᴇ ǫᴜɪᴛᴇ ᴀ ғᴇᴡ sᴇᴛᴛɪɴɢ ғᴏʀ {} - ɢᴏ ᴀʜᴇᴀᴅ ᴀɴᴅ ᴘɪᴄᴋ ᴡʜᴀᴛ ʏᴏᴜ ᴀʀᴇ ɪɴᴛᴇʀsᴛᴇᴅ ɪɴ.""".format(chat.title),
+            query.message.reply_text("""⬤ 𝐇ɪɪ 𝐘ʜᴇʀᴇ, 𝐓ʜᴇʀᴇ 𝐀ʀᴇ 𝐐ᴜɪᴛᴇ 𝐀 𝐅ᴇᴡ 𝐒ᴇᴛᴛɪɴɢ 𝐅ᴏʀ {} - 𝐆ᴏ 𝐀ʜᴇᴀᴅ 𝐀ɴᴅ 𝐏ɪᴄᴋ 𝐖ʜᴀᴛ 𝐘ᴏᴜ 𝐀ʀᴇ 𝐈ɴᴛᴇʀsᴛᴇᴅ 𝐈ɴ.""".format(chat.title),
                 reply_markup=InlineKeyboardMarkup(
                     paginate_modules(
                         curr_page - 1, CHAT_SETTINGS, "stngs", chat=chat_id
@@ -1039,7 +1039,7 @@ def settings_button(update: Update, context: CallbackContext):
             next_page = int(next_match.group(2))
             chat = bot.get_chat(chat_id)
             query.message.reply_text(text=
-                """⬤ ʜɪɪ ᴛʜᴇʀᴇ, ᴛʜᴇʀᴇ ᴀʀᴇ ǫᴜɪᴛᴇ ᴀ ғᴇᴡ sᴇᴛᴛɪɴɢ ғᴏʀ {} - ɢᴏ ᴀʜᴇᴀᴅ ᴀɴᴅ ᴘɪᴄᴋ ᴡʜᴀᴛ ʏᴏᴜ ᴀʀᴇ ɪɴᴛᴇʀsᴛᴇᴅ ɪɴ.""".format(chat.title),
+                """⬤ 𝐇ɪɪ 𝐘ʜᴇʀᴇ, 𝐓ʜᴇʀᴇ 𝐀ʀᴇ 𝐐ᴜɪᴛᴇ 𝐀 𝐅ᴇᴡ 𝐒ᴇᴛᴛɪɴɢ 𝐅ᴏʀ {} - 𝐆ᴏ 𝐀ʜᴇᴀᴅ 𝐀ɴᴅ 𝐏ɪᴄᴋ 𝐖ʜᴀᴛ 𝐘ᴏᴜ 𝐀ʀᴇ 𝐈ɴᴛᴇʀsᴛᴇᴅ 𝐈ɴ.""".format(chat.title),
                 reply_markup=InlineKeyboardMarkup(
                     paginate_modules(
                         next_page + 1, CHAT_SETTINGS, "stngs", chat=chat_id
@@ -1050,7 +1050,7 @@ def settings_button(update: Update, context: CallbackContext):
         elif back_match:
             chat_id = back_match.group(1)
             chat = bot.get_chat(chat_id)
-            query.message.reply_text("""⬤ ʜɪɪ ᴛʜᴇʀᴇ, ᴛʜᴇʀᴇ ᴀʀᴇ ǫᴜɪᴛᴇ ᴀ ғᴇᴡ sᴇᴛᴛɪɴɢ ғᴏʀ {} - ɢᴏ ᴀʜᴇᴀᴅ ᴀɴᴅ ᴘɪᴄᴋ ᴡʜᴀᴛ ʏᴏᴜ ᴀʀᴇ ɪɴᴛᴇʀsᴛᴇᴅ ɪɴ.""".format(escape_markdown(chat.title)),
+            query.message.reply_text("""⬤ 𝐇ɪɪ 𝐓ʜᴇʀᴇ, 𝐓ʜᴇʀᴇ 𝐀ʀᴇ 𝐐ᴜɪᴛᴇ 𝐀 𝐅ᴇᴡ 𝐒ᴇᴛᴛɪɴɢ 𝐅ᴏʀ {} - 𝐆ᴏ 𝐀ʜᴇᴀᴅ 𝐀ɴᴅ 𝐏ɪᴄᴋ 𝐖ʜᴀᴛ 𝐘ᴏᴜ 𝐀ʀᴇ 𝐈ɴᴛᴇʀsᴛᴇᴅ 𝐈ɴ.""".format(escape_markdown(chat.title)),
                 parse_mode=ParseMode.MARKDOWN,
                 reply_markup=InlineKeyboardMarkup(
                     paginate_modules(0, CHAT_SETTINGS, "stngs", chat=chat_id)
@@ -1077,13 +1077,13 @@ def get_settings(update: Update, context: CallbackContext):
     # ONLY send settings in PM
     if chat.type != chat.PRIVATE:
         if is_user_admin(chat, user.id):
-            text = "⬤ ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ɢᴇᴛ ᴛʜɪs ᴄʜᴀᴛ's sᴇᴛᴛɪɴɢs ᴀs ᴡᴇʟʟ ᴀs ʏᴏᴜʀs"
+            text = "⬤ 𝐂ʟɪᴄᴋ 𝐇ᴇʀᴇ 𝐓ᴏ 𝐆ᴇᴛ 𝐓ʜɪs 𝐂ʜᴀᴛ's 𝐒ᴇᴛᴛɪɴɢs 𝐀s 𝐖ᴇʟʟ 𝐀s 𝐘ᴏᴜʀs"
             msg.reply_photo(random.choice(ABHI),text,
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton(
-                                text="sᴇᴛᴛɪɴɢs",
+                                text="𝐒ᴇᴛᴛɪɴɢs",
                                 url="t.me/{}?start=stngs_{}".format(
                                     context.bot.username, chat.id
                                 ),
@@ -1093,7 +1093,7 @@ def get_settings(update: Update, context: CallbackContext):
                 ),
             )
         else:
-            text = "❖ ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴇᴛᴛɪɴɢs"
+            text = "❖ 𝐂ʟɪᴄᴋ 𝐇ᴇʀᴇ 𝐓ᴏ 𝐂ʜᴇᴄᴋ 𝐘ᴏᴜʀ 𝐒ᴇᴛᴛɪɴɢs"
 
     else:
         send_settings(chat.id, user.id, True)
@@ -1108,10 +1108,10 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 6922271843:
+        if OWNER_ID != 7146599240:
             update.effective_message.reply_text(
-                f"❅ ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴩᴇʀ ᴏғ {dispatcher.bot.first_name} sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ɪs [ɢɪᴛʜᴜʙ](https://github.com/noob-mukesh/nothing?)"
-                f"\n\n❅ ʙᴜᴛ ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴅᴏɴᴀᴛᴇ ᴛᴏ ᴛʜᴇ ᴩᴇʀsᴏɴ ᴄᴜʀʀᴇɴᴛʟʏ ʀᴜɴɴɪɴɢ ᴍᴇ : [ʜᴇʀᴇ]",
+                f"❅ 𝐓ʜᴇ 𝐃ᴇᴠᴇʟᴏᴩᴇʀ 𝐎ғ {dispatcher.bot.first_name} 𝐒ᴏᴜʀᴄᴇ 𝐂ᴏᴅᴇ 𝐈s [ɢɪᴛʜᴜʙ](https://github.com/noob-mukesh/nothing?)"
+                f"\n\n❅ 𝐁ᴜᴛ 𝐘ᴏᴜ 𝐂ᴀɴ 𝐀ʟsᴏ 𝐃ᴏɴᴀᴛᴇ 𝐓ᴏ 𝐓ʜᴇ 𝐏ᴇʀsᴏɴ 𝐂ᴜʀʀᴇɴᴛʟʏ 𝐑ᴜɴɴɪɴɢ 𝐌ᴇ : [ʜᴇʀᴇ]",
                 parse_mode=ParseMode.MARKDOWN,
                 
             )
@@ -1126,11 +1126,11 @@ def donate(update: Update, context: CallbackContext):
             )
 
             update.effective_message.reply_text(
-                "❅ ɪᴠᴇ ᴘᴍ'ᴇᴅ ʏᴏᴜ ᴀʙᴏᴜᴛ ᴅᴏɴᴀᴛɪɴɢ ᴛᴏ ᴍʏ ᴄʀᴇᴀᴛᴏʀ!"
+                "❅ 𝐈ᴠᴇ 𝐏ᴍ'ᴇᴅ 𝐘ᴏᴜ 𝐀ʙᴏᴜᴛ 𝐃ᴏɴᴀᴛɪɴɢ 𝐓ᴏ 𝐌ʏ 𝐂ʀᴇᴀᴛᴏʀ!"
             )
         except Unauthorized:
             update.effective_message.reply_text(
-                "❅ ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ ɪɴ ᴘᴍ ғɪʀsᴛ ᴛᴏ ɢᴇᴛ ᴅᴏɴᴀᴛɪᴏɴ ɪɴғᴏʀᴍᴀᴛɪᴏɴ."
+                "❅ 𝐂ᴏɴᴛᴀᴄᴛ 𝐌ᴇ 𝐈ɴ 𝐏ᴍ 𝐅ɪʀsᴛ 𝐘ᴏ 𝐆ᴇᴛ 𝐃ᴏɴᴀᴛɪᴏɴ 𝐈ɴғᴏʀᴍᴀᴛɪᴏɴ."
             )
 
 
@@ -1159,8 +1159,8 @@ def main():
                 [
                     [
                         InlineKeyboardButton(
-                            text="ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ",
-                            url="https://t.me/avishaxbot?startgroup=true"
+                            text="𝐀ᴅᴅ 𝐌ᴇ 𝐃ᴇᴀʀ ♡",
+                            url="https://t.me/SohiniMusicBot?startgroup=true"
                             )
                        ]
                 ]
@@ -1171,15 +1171,15 @@ def main():
                 f"@{SUPPORT_CHAT}",
                 photo=f"{START_IMG}",
                 caption=f"""
-❖ㅤ{BOT_NAME} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ ❖
+❖ㅤ{BOT_NAME} 𝐈s 𝐀ʟɪᴠᴇ 𝐃ᴇᴀʀ ❖
      ━━━━━━━━ ⊱◈◈◈⊰ ━━━━━━━━
      
-**● ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ ➥** `{y()}`
-**● ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ ➥** `{telever}`
-**● ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ ➥** `{tlhver}`
-**● ᴩʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ ➥** `{pyrover}`
+**● 𝐏ʏᴛʜᴏɴ 𝐕ᴇʀsɪᴏɴ ➥** `{y()}`
+**● 𝐋ɪʙʀᴀʀʏ 𝐕ᴇʀsɪᴏɴ ➥** `{telever}`
+**● 𝐓ᴇʟᴇᴛʜᴏɴ 𝐕ᴇʀsɪᴏɴ ➥** `{tlhver}`
+**● 𝐏ʏʀᴏɢʀᴀᴍ 𝐕ᴇʀsɪᴏɴ ➥** `{pyrover}`
 
-**❖ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ➥ [๛ᴀ ᴠ ɪ s ʜ ᴀ ࿐](https://t.me/roy_editx)**
+**❖ 𝐏ᴏᴡᴇʀᴇᴅ 𝐁ʏ ➥ [𓆩 𝐒 𝐇 𝐔 𝐁 𝐇 𝐎 𓆪](https://t.me/Blossoms_Chat)**
      ━━━━━━━━ ⊱◈◈◈⊰ ━━━━━━━━
 """,reply_markup=x,
                 parse_mode=ParseMode.MARKDOWN,
@@ -1203,7 +1203,7 @@ def main():
     )
 
     about_callback_handler = CallbackQueryHandler(
-        Avisha_about_callback, pattern=r"avisha_", run_async=True
+        Avisha_about_callback, pattern=r"sohini_", run_async=True
     )
     source_callback_handler = CallbackQueryHandler(
         Source_about_callback, pattern=r"source_", run_async=True
