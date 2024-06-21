@@ -235,7 +235,7 @@ CHAT_SETTINGS = {}
 USER_SETTINGS = {}
 
 for module_name in ALL_MODULES:
-    imported_module = importlib.import_module("AvishaRobot.modules." + module_name)
+    imported_module = importlib.import_module("SohiniRobot.modules." + module_name)
     if not hasattr(imported_module, "__mod_name__"):
         imported_module.__mod_name__ = imported_module.__name__
 
@@ -550,9 +550,6 @@ def AvishaRobot_Main_Callback(update: Update, context: CallbackContext):
                     [
                         InlineKeyboardButton(text="𝐒ᴘᴀᴍ ♡", callback_data="Music_roy"),
                         InlineKeyboardButton(text="𝐀ɴɪᴍᴇ ♡", callback_data="source_") 
-                    ],
-                    [
-                        InlineKeyboardButton(text="𝐒ᴛʀɪɴɢ 𝐆ᴇɴᴇʀᴀᴛᴏʀ ♡", callback_data="source_") 
                     ],
                     [
                         InlineKeyboardButton(text="ʜᴏᴍᴇ", callback_data="avisha_back")
